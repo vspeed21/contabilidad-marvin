@@ -12,7 +12,7 @@ function Formulario() {
   }
 
   return (
-    <div className="mb-16">
+    <div className="mb-16" id="contacto">
       <Heading title="Contacto" />
 
       <form onSubmit={onSubmit} className="max-w-4xl md:mx-auto mx-3">
