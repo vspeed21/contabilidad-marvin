@@ -3,6 +3,7 @@ import Formulario from "./components/contacto/Formulario";
 import PorqueElegirnos from "./components/elegirnos/PorqueElegirnos";
 import Hero from "./components/hero/Hero";
 import Services from "./components/services/Services";
+import Footer from "./layout/Footer";
 
 import Header from "./layout/Header";
 
@@ -16,6 +17,7 @@ function App() {
       <About />
       <PorqueElegirnos />
       <Formulario />
+      <Footer />
     </>
   );
 }
