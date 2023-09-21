@@ -4,7 +4,7 @@ import Service from "./Service";
 
 function Services() {
   return (
-    <div id="servicios">
+    <div id="servicios" className="mb-16">
       <Heading title="Mis servicios" />
 
       <div className="contenedor flex flex-wrap gap-3 justify-center items-center">
@@ -12,7 +12,6 @@ function Services() {
           <Service service={service} key={service.title} />
         ))}
       </div>
-
     </div>
   )
 }
