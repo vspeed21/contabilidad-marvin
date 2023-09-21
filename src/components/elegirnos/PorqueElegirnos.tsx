@@ -5,12 +5,13 @@ function PorqueElegirnos() {
     <div className="mb-16">
       <Heading title="¿Porque elegirnos?" />
 
-      <div className="flex flex-col gap-4 justify-center items-center md:flex-row max-w-3xl mx-auto w-[90%]">
+      <div className="flex flex-col gap-4 justify-center items-center md:flex-row max-w-3xl mx-auto w-[90%] mb-10">
         <p className="-mt-3 md:-mt-0 text-center">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt fuga vero beatae accusamus blanditiis, aliquid omnis quaerat doloremque delectus exercitationem
         </p>
         <img className="w-80" src="https://placehold.co/600x400" />
       </div>
+      <hr />
     </div>
   )
 }
