@@ -30,9 +30,9 @@ function Header() {
         <div className="contenedor flex justify-between">
           <h2 className="uppercase font-bold">Marvin</h2>
           <p onClick={() => setIsOpen(!isOpen)} className="md:hidden">hamburger menu</p>
+          <Navegation isOpen={isOpen} setIsOpen={setIsOpen} />
         </div>
       </header>
-      <Navegation isOpen={isOpen} setIsOpen={setIsOpen} />
     </>
   )
 }
