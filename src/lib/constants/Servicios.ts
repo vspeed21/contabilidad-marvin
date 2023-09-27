@@ -2,19 +2,19 @@ import { IService } from "../../components/shared/interfaces";
 
 const services: IService[] = [
   {
-    imageUrl: 'https://placehold.co/600x400',
+    imageUrl: 'img/estados financieros.jpeg',
     title: 'Estados financieros',
-    caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis felis convallis, rhoncus leo id, scelerisque purus.',
+    caption: 'Conoce la salud financiera de tu empresa y toma desiciones informadas.',
   },
   {
-    imageUrl: 'https://placehold.co/600x400',
+    imageUrl: 'img/declaracion impuestos.jpeg',
     title: 'Declaración de impuestos',
-    caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis felis convallis, rhoncus leo id, scelerisque purus.',
+    caption: 'Presenta tus impuestos sin complicaciones y ahorra tiempo y dinero.',
   },
   {
-    imageUrl: 'https://placehold.co/600x400',
+    imageUrl: 'img/registros contables.jpg',
     title: 'Registros contables',
-    caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis felis convallis, rhoncus leo id, scelerisque purus.',
+    caption: 'Controla tus finanzas de forma eficiente y toma desiciones acertadas',
   },
 ];
 
