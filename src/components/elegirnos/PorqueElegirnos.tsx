@@ -1,4 +1,4 @@
-import { Heading } from "../shared";
+import { CustomImage, Heading } from "../shared";
 
 function PorqueElegirnos() {
   return (
@@ -7,9 +7,9 @@ function PorqueElegirnos() {
 
       <div className="flex flex-col gap-4 justify-center items-center md:flex-row max-w-3xl mx-auto w-[90%] mb-10">
         <p className="-mt-3 md:-mt-0 text-center md:text-start text-lg">
-          Nos comprometemos a brindar un servicio personalizado para satisfacer las necesidades de cualquier empresa, desde pequeñas empresas hasta grandes corporaciones
+          Nos comprometemos a brindar un servicio personalizado para satisfacer las necesidades de cualquier empresa, desde pequeñas empresas hasta grandes corporaciones.
         </p>
-        <img className="w-80" src="img/porque elejirnos.jpg" />
+        <CustomImage imageName="porque-elegirnos" type="jpg" className="md:w-[50rem] lg:w-[60rem]" />
       </div>
       <hr />
     </div>
