@@ -15,7 +15,7 @@ export default {
           backgroundImage: "linear-gradient(to right, rgb(0 0 0 /.6) 80%, rgb(0 0 0 /.6) 100%), url('img/header.jpg')",
         },
         '.bg-hero-about': {
-          backgroundImage: "linear-gradient(to right, rgb(0 0 0 /.6) 80%, rgb(0 0 0 /.6) 100%), url('img/acerca de.jpg')",
+          backgroundImage: "linear-gradient(to right, rgb(0 0 0 /.6) 80%, rgb(0 0 0 /.6) 100%), url('img/acercade.jpg')",
         },
       })
     }),
