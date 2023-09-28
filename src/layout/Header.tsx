@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 
 import Navegation from "../components/navegation/Navegation";
+import BurgerButton from "../components/navegation/BurgerButton";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +30,9 @@ function Header() {
       <header className={`bg-white border-b-2 p-5 transition-all ${windowWidth >= 490 ? 'sticky top-0 z-50' : ''} ${navbar ? 'shadow-md border-b-0' : ''}`}>
         <div className="contenedor flex justify-between">
           <h2 className="uppercase font-bold">Marvin</h2>
-          <p onClick={() => setIsOpen(!isOpen)} className="md:hidden">- - -</p>
+          <button onClick={() => setIsOpen(!isOpen)} className="md:hidden">
+            <BurgerButton isClicked={isOpen} />
+          </button>
           <Navegation isOpen={isOpen} setIsOpen={setIsOpen} />
         </div>
       </header>
