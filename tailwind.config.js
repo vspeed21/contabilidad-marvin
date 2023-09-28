@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 import plugin from 'tailwindcss/plugin';
 export default {
   content: [
@@ -12,12 +13,12 @@ export default {
     plugin(function ({ addComponents }) {
       addComponents({
         '.bg-hero-pattern': {
-          backgroundImage: "linear-gradient(to right, rgb(0 0 0 /.6) 80%, rgb(0 0 0 /.6) 100%), url('img/header.jpg')",
+          backgroundImage: "linear-gradient(to right, rgb(0 0 0 /.6) 80%, rgb(0 0 0 /.6) 100%), url('../img/header.jpg')",
         },
         '.bg-hero-about': {
-          backgroundImage: "linear-gradient(to right, rgb(0 0 0 /.6) 80%, rgb(0 0 0 /.6) 100%), url('img/acercade.jpg')",
+          backgroundImage: "linear-gradient(to right, rgb(0 0 0 /.6) 80%, rgb(0 0 0 /.6) 100%), url('../img/acercade.jpg')",
         },
-      })
+      });
     }),
   ],
 }
